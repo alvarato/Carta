@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: black;
+}
+body{
+    background-image: url("fotos/fondo.jpg");
+    background-size: cover;
+}
+.container {
+    padding: 0;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 1100px;
+    height: 900px;
+    margin: auto;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("fotos/fondo.jpg");
+    background-size: cover;
+}
+.dos-principales{
+    width: 48%;
+    display: flex;
+    /* background-image:url("fotos/fondo.jpg");
+    background-size: cover; */
+    height: 100%;
+}
+.principalpizza{
+    width: 48%;
+    flex-direction: column;
+    height: 100%;  
+    padding: 2px;
+}
+img{
+    width: 100%;
+}
+.titulo{
+    font-size: 34px;
+    text-align: center;
+}
+.tituloh{
+    font-size: 30px;
+    text-align: center;
+}
+.box1{
+    flex-direction: column;
+    width: 49%;
+    height: 100%;
+    margin: 2px;
+    padding: 1px;
+}
+.tipo1{
+    width: 100%;
+    margin: 1px 3px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.comida{
+    height: 24px;
+    width: 70%;
+    background-color:#F9A02A;
+    border-radius: 22px;
+    text-align: left;
+    padding: 3px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.precio{
+    height: 24px;
+    width: 20%;
+    /* background-color: turquoise; */
+    display: block;
+    padding: 3px;
+    margin-right: 10px;
+}
+.descripcion{
+    margin: 3px 10px;
+}
+.box2{
+    height: 140px;
+    width: 100%;
+    background-color:#F9A02A;
+    border-radius: 22px;
+    text-align: center;
+    margin: 0px 0px 5px 5px;
+    justify-content: space-between;
+}
+.comidaxprecio{
+    display: flex;
+    justify-content: space-between;
+}
+.comida2{
+    width: 70%;
+    height: 105px;
+    margin: 0px 5px;
+    padding: 15px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.precio2{
+    width: 25%;
+    height: 105px;
+    background-color: black;
+    border-radius: 35px;
+    margin-right: 2px;
+    padding: 15px;
+}
+.minilomos{
+    font-size: 30px;
+}
+.comidaxprecio2{
+    display: flex;
+    margin: 2px;
+    padding: 1px;
+
+}
+.comida3{
+    width: 50%;
+    height: 36px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px;
+}
+.precio3{
+    width: 50%;
+    height: 36px;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.descripcion2{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.pizzas{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-left: 3px;
+}
+.preciop{
+    height: 24px;
+    width: 30%;
+    /* background-color: turquoise; */
+    display: block;
+    padding: 3px;
+}
+.boton{
+    margin: auto;
+    margin-top: 20px;
+    background-color: #F9A02A;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:900px){
+    .container{
+        flex-direction: column;
+        height: 100%;
+    }
+    .dos-principales{
+        width: 100%;
+    }
+    .principalpizza{
+        width: 100%;
+    }
+}
+@media (max-width:549px){
+    .dos-principales{
+        display: block;
+    }
+    .box1{
+        width: 100%;
+        overflow: hidden;
+    }
+}

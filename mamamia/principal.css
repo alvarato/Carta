@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: black;
+}
+body{
+    background-image: url("fotos/fondo.jpg");
+    background-size: cover;
+}
+.container {
+    padding: 0;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    background-size: cover;
+}
+.titulo{
+    width: 70%;
+    height: 300px;
+    background-image: url("fotos/principalmamamia.png");
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 78px;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+}
+.logop{
+    width: 700px;
+}
+.gbox{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.box1{
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    margin-left: 20px;
+    background-image: url("fotos/local.jpg");
+    background-size: cover;
+    border-radius: 46px;
+    border: 16px solid #F9A02A;
+}
+.logo{
+    margin-top: 10px;
+    width: 460px;
+   justify-content: center;
+}
+.cajatexto{
+    background-color:black;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.texto{
+    display: flex;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.dias{
+    align-items: center;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+.covid{
+    font-size: 20px;
+}
+.carta{
+    width: 300px;
+    height: 140px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-radius: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F9A02A ;
+    font-size: 80px;
+}
+.textocarta{
+    text-decoration: none;
+}
+.redes{
+    display: flex;
+    margin: auto;
+}
+.redessociales{
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.red{
+    margin: auto;
+    padding: 5px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.igf{
+    display: flex;
+}
+.textoredes{
+    font-size: 20px;
+    margin: auto;
+}
+@media (max-width:700px) {
+    .logop{
+        width: 400px;
+    }
+    .gbox{
+        flex-direction: column;
+    }
+
+}
+@media (max-width:500px) {
+    .logop{
+        margin-top: 30px;
+        width: 250px;
+    }
+    .titulo{
+        width: 90%;
+    }
+    .box1{
+        width: 300px;
+        height: 500px;
+        margin-top: 20px;
+    }
+    .logo{
+        width: 250px;
+    }
+    .texto{
+        font-size: 20px;
+    }
+    .dias{
+        font-size: 20px;
+    }
+    
+}
