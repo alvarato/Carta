@@ -1,2 +1,2 @@
 # Carta
-carta de una un restaurante utilizando firebase,  javascript, html5 y css3.
+Carta de  un restaurante utilizando firebase,  javascript, html5 y css3.
